@@ -143,7 +143,7 @@ def createChunk():
 
     # Display the pivot table with total count
     st.dataframe(pivot_df)
-    st.dataframe(st.session_state.total_count_df)
+    # st.dataframe(st.session_state.total_count_df)
 
     
 
